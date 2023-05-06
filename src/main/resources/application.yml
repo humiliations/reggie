@@ -5,7 +5,7 @@ spring:
     host: 8.130.89.88
     port: 6379
     database: 0
-    password: root@123456
+    password: 123456
   application:
     name: reggie_take_out
   datasource:
