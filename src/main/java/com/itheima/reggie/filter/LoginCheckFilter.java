@@ -35,7 +35,8 @@ public class LoginCheckFilter implements Filter {
                 "/front/**",
                 "/common/**",
                 "/user/sendMsg",
-                "/user/login"
+                "/user/login",
+                "/test/upload"
         };
         // 判断请求是否处理
         boolean check = check(urls, requestURI);
